@@ -1,0 +1,14 @@
+{
+  "name": "Krunker Server List",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "width": 5000,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "host_permissions": [
+    "https://matchmaker.krunker.io/"
+  ]
+}
