@@ -1,6 +1,6 @@
 {
-	"name": "Chrome Extension...",
-	"description": "This extension is created for...",
+	"name": "Krunker Server List",
+	"description": "Base Level Extension",
 	"version": "1.0",
 	"manifest_version": 3,
 	"action": {
@@ -25,5 +25,8 @@
 		"48": "/images/icon_48.png",
 		"128": "/images/icon_128.png"
 	},
-	"options_page": "options.html"
+	"options_page": "options.html",
+	"host_permissions": [
+		"https://matchmaker.krunker.io/"
+	]
 }

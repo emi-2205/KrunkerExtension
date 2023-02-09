@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = (env) => {
 	return {
-		mode: env.production ? "production" : 'development',
+		mode: "production",
 		entry: {
 			background: path.resolve(__dirname, "..", "src", "background.ts"),
 			popup: path.resolve(__dirname, "..", "src", "popup", "popup.ts"),
