@@ -1,5 +1,7 @@
 import { fetchKrunkerGames } from "./krunker-service";
 import "./popup.scss";
+// Import all of Bootstrap's JS
+//import * as bootstrap from 'bootstrap'
 
 function createAnchor(title: string, url: string) { // Create anchor element.
 
