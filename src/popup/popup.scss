@@ -1,2 +1,100 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: "game-style";
+    src: url("/public/font/AFGenerationA-Bold.ttf") format("truetype");
+}
+  
+body {
+    font-family: "game-style", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.center-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+}
+
+.main-div {
+    display: flex;
+    min-width: 27em;
+    margin: 1em;
+    padding: 0;
+    border: 4px solid #868686;
+    //background-color: black;
+    overflow: hidden;
+}
+
+.secondary-div {
+    display: none;
+    min-width: 24em;
+    margin: 1em;
+    padding: 20;
+    border: 2px solid #868686;
+    //background-color: black;
+    overflow: hidden;
+    justify-content: center;
+    display: grid;
+}
+
+.scrollable-div {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 20px;
+    padding-left: 0;
+}  
+
+.custom-button {
+    padding: 0; 
+    margin:0;
+    background-color: black;
+    color: white;
+}
+
+.custom-button:hover {
+    padding: 0; 
+    margin:0;
+    background-color: black;
+    color: white;
+}
+
+.launch-button {
+    border-radius: 10%;
+    //max-width: 200;
+    width: 17em; 
+    height: 30px; 
+    border: 4px solid #b447ff;
+}
+
+.launch-button:hover {
+    border-radius: 10%;
+   // max-width: 280;
+    //width: 16em; 
+    height: 30px; 
+    border: 4px solid white;
+}
+
+.counter-button {
+    width: 35px; 
+    height: 35px; 
+    border: 4px solid #b447ff;
+    
+}
+
+.counter-button:hover {
+    border: 4px solid white;
+    //cursor: pointer;
+    width: 32px; 
+    height: 32px;
+  }
+
+.custom-row {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    align-items: flex-start;
+}

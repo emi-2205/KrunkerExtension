@@ -2,3 +2,5 @@
 /dist/
 /node_modules/
 .DS_Store
+public/font/demo.html
+public/font/stylesheet.css
