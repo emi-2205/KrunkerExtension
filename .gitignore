@@ -1,6 +1,8 @@
-# Project exclude paths
-/dist/
+# Exclude node modules
 /node_modules/
+
+# Exclude build folder
+/dist/
+
+# Exclude MacOS file
 .DS_Store
-public/font/demo.html
-public/font/stylesheet.css
