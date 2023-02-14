@@ -1,11 +1,10 @@
-// Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
 
 @font-face {
     font-family: "game-style";
     src: url("/public/font/AFGenerationA-Bold.ttf") format("truetype");
 }
-  
+
 body {
     font-family: "game-style", sans-serif;
     background-color: black;
